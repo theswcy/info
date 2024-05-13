@@ -1,0 +1,268 @@
+.sMod {
+    z-index: 9;
+
+    position: relative;
+    top: 15%;
+    height: 75%;
+    width: 75%;
+    margin: 0 auto;
+
+    background-color: #070813;
+
+    border-radius: 30px;
+    border: solid 2px;
+    border-right-color: #9d9cff;
+    border-left-color: #9d9cff;
+
+    transition: 0.5s ease-out;
+}
+.sMod h1 {
+    z-index: 9;
+    text-align: center;
+    top: 7%;
+
+    color: #9e9cff28;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+
+    transition: 0.3s ease-out;
+}
+.nerdi {
+    z-index: 10;
+    text-align: left;
+
+    position: absolute;
+    top: 20%;
+    left: 3%;
+
+    height: 172px;
+    width: 470px;
+
+    border-radius: 20px;
+    border: solid #00000000;
+    background-color: #020307;
+
+    overflow-wrap: break-word;
+
+    transition: 0.3s ease-out;
+}
+.nerdi:hover {
+    border-color: #e9b06f;
+}
+.nerdi p {
+    position: absolute;
+    
+    color: #9e9cff63;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+
+    left: 40%;
+    top: 9%;
+
+    width: 290px;
+}
+.nerdi img {
+    z-index: 10;
+    position: absolute;
+
+    top: 10%;
+    left: 3%;
+
+    width: 140px;
+
+    border-radius: 20px;
+}
+
+
+
+.catss {
+    z-index: 10;
+    text-align: left;
+
+    position: absolute;
+    top: 20%;
+    right: 3%;
+
+    height: 172px;
+    width: 470px;
+
+    border-radius: 20px;
+    border: solid #00000000;
+    background-color: #020307;
+
+    overflow-wrap: break-word;
+
+    transition: 0.3s ease-out;
+}
+.catss:hover {
+    border-color: #fd395a;
+}
+.catss p {
+    position: absolute;
+    
+    color: #9e9cff63;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+
+    left: 40%;
+    top: 17%;
+
+    width: 290px;
+}
+.catss img {
+    z-index: 10;
+    position: absolute;
+
+    top: -57%;
+    left: -59%;
+
+    width: 140px;
+
+    border-radius: 20px;
+}
+
+
+
+.cat {
+    z-index: 10;
+    text-align: left;
+
+    position: absolute;
+    top: 60%;
+    left: 3%;
+
+    height: 172px;
+    width: 470px;
+
+    border-radius: 20px;
+    border: solid #00000000;
+    background-color: #020307;
+
+    overflow-wrap: break-word;
+
+    transition: 0.3s ease-out;
+}
+.cat:hover {
+    border-color: #ff91e4;
+}
+.cat p {
+    position: absolute;
+    
+    color: #9e9cff63;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+
+    left: 40%;
+    top: 17%;
+
+    width: 290px;
+}
+.cat img {
+    z-index: 10;
+    position: absolute;
+
+    top: -57%;
+    left: -59%;
+
+    width: 140px;
+
+    border-radius: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1360px) {
+    .sMod {
+        height: 600px;
+        width: 85%;
+    }
+
+    .nerdi {
+        overflow-wrap: break-word;
+
+        align-content: center;
+
+        top: 16%;
+        height: 130px;
+        width: 92%;
+
+        border-radius: 10px;
+    }
+    .nerdi img {
+        top: -20%;
+
+        position: relative;
+        width: 60px;
+        left: 3%;
+
+        border-radius: 10px;
+    }
+    .nerdi p {
+        font-size: 15px;
+        left: 3%;
+        top: 48%;
+
+        width: 100%;
+    }
+
+
+    .catss {
+        overflow-wrap: break-word;
+
+        align-content: center;
+
+        top: 43%;
+        height: 130px;
+        width: 92%;
+
+        border-radius: 10px;
+    }
+    .catss img {
+        top: -174%;
+
+        position: absolute;
+        width: 60px;
+        left: 0%;
+
+        border-radius: 10px;
+    }
+    .catss p {
+        font-size: 15px;
+        left: 3%;
+        top: 48%;
+
+        width: 100%;
+    }
+
+
+
+    .cat {
+        overflow-wrap: break-word;
+
+        align-content: center;
+
+        top: 70%;
+        height: 130px;
+        width: 92%;
+
+        border-radius: 10px;
+    }
+    .cat img {
+        top: -174%;
+
+        position: absolute;
+        width: 60px;
+        left: 0%;
+
+        border-radius: 10px;
+    }
+    .cat p {
+        font-size: 15px;
+        left: 3%;
+        top: 48%;
+
+        width: 100%;
+    }
+}
