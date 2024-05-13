@@ -286,11 +286,8 @@
 
     border-radius: 30px;
     border: solid #00000000 4px;
-    border-left-color: #524fff;
 
     transition: 0.5s ease-out;
-
-    box-shadow: 5px 5px 10px #00000000;
 }
 .axy h1 {
     z-index: 9;
