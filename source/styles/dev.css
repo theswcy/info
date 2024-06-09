@@ -1,0 +1,817 @@
+.backG {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    width: 650px;
+    height: 1900px;
+
+    box-shadow: 5px 5px 5px #000000;
+}
+
+
+
+
+.langs {
+    position: relative;
+
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+    border: solid #00000000 2px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+    
+    background-color: #141518;
+
+    transition: 0.2s ease-in-out;
+}
+.langs h1 {
+    text-align: center;
+
+    color: #ffffff2d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: underline #004381;
+}
+
+
+
+
+.CS {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 100px;
+    left: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.CS:hover {
+    color: #c67bff;
+    border-bottom-color: #c67bff;
+}
+
+
+
+
+.PY {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 100px;
+    right: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.PY:hover {
+    color: #fff455;
+    border-bottom-color: #3e82ff;
+}
+
+
+
+
+.JS {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 180px;
+    left: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.JS:hover {
+    color: #fff455;
+    border-bottom-color: #fff455;
+}
+
+
+
+.LangDiv {
+    position: relative;
+
+    top: 183px;
+    width: 95%;
+    height: 1px;
+    margin: 0 auto;
+
+    background-color: #3d3d3d;
+}
+
+
+
+.HT {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 297px;
+    left: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.HT:hover {
+    color: #ff5d2b;
+    border-bottom-color: #ff5d2b;
+}
+
+
+
+.CSS {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 297px;
+    right: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.CSS:hover {
+    color: #557dff;
+    border-bottom-color: #557dff;
+}
+
+
+
+.RZ {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 380px;
+    left: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.RZ:hover {
+    color: #2155ff;
+    border-bottom-color: #2155ff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .backG {
+        width: 100%;
+    }
+    .langs {
+        top: 50px;
+        width: 97%;
+        height: 600px;
+        margin: 0 auto;
+        background-color: #0a0b0ca6;
+    }
+    .CS {
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .PY {
+        position: relative;
+        top: 20px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .JS {
+        position: relative;
+        top: 30px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .LangDiv {
+        position: relative;
+        top: 50px;
+        background-color: #696969;
+    }
+
+
+    .HT {
+        position: relative;
+        top: 70px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .CSS {
+        position: relative;
+        top: 80px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .RZ {
+        position: relative;
+        top: 90px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+.tech {
+    position: relative;
+
+    top: 230px;
+    width: 500px;
+    height: 520px;
+    margin: 0 auto;
+
+    border: solid #00000000 2px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+    
+    background-color: #141518;
+
+    transition: 0.2s ease-in-out;
+}
+.tech h1 {
+    text-align: center;
+
+    color: #ffffff2d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: underline #004381;
+}
+
+
+
+.VS {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 100px;
+    left: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.VS:hover {
+    color: #c67bff;
+    border-bottom-color: #c67bff;
+}
+
+
+
+.NET {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 100px;
+    right: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.NET:hover {
+    color: #c67bff;
+    border-bottom-color: #c67bff;
+}
+
+
+
+.techDiv {
+    position: relative;
+
+    top: 100px;
+    width: 95%;
+    height: 1px;
+    margin: 0 auto;
+
+    background-color: #3d3d3d;
+}
+
+
+
+.VSC {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 213px;
+    left: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.VSC:hover {
+    color: #2b6eff;
+    border-bottom-color: #2b6eff;
+}
+
+
+
+.MDB {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 213px;
+    right: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.MDB:hover {
+    color: #55ff55;
+    border-bottom-color: #55ff55;
+}
+
+
+
+.Github {
+    position: absolute;
+
+    text-align: center;
+
+    top: 295px;
+    left: 25px;   
+    width: 200px;
+    height: 50px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.Github a {
+    position: relative;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    top: 13px;
+}
+.Github:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+
+
+.techDiv2 {
+    position: relative;
+
+    top: 290px;
+    width: 95%;
+    height: 1px;
+    margin: 0 auto;
+
+    background-color: #3d3d3d;
+}
+
+
+
+.PYC {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 405px;
+    left: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.PYC:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+.DSP {
+    position: absolute;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    top: 405px;
+    right: 25px;   
+    width: 200px;
+
+
+    border: solid #00000000 3px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+
+    background-color: #0e0f11;
+
+    transition: 0.2s ease-in-out;
+}
+.DSP:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .tech{
+        top: 130px;
+        width: 97%;
+        height: 690px;
+        margin: 0 auto;
+        background-color: #0a0b0ca6;
+    }
+    .VS {
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .NET {
+        position: relative;
+        top: 20px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .techDiv {
+        position: relative;
+        top: 40px;
+        background-color: #696969;
+    }
+
+
+    .VSC {
+        position: relative;
+        top: 60px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .MDB {
+        position: relative;
+        top: 70px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .Github {
+        position: relative;
+        top: 80px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .techDiv2 {
+        position: relative;
+        top: 100px;
+        background-color: #696969;
+    }
+
+
+    .PYC {
+        position: relative;
+        top: 120px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .DSP {
+        position: relative;
+        top: 130px;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+.proj {
+    position: relative;
+
+    top: 350px;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+
+    border: solid #00000000 2px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 25px;
+    
+    background-color: #141518;
+
+    transition: 0.2s ease-in-out;
+}
+.proj h1 {
+    text-align: center;
+
+    color: #ffffff2d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: underline #004381;
+}
+.proj p {
+    position: relative;
+    text-align: center;
+
+    color: #ffffff2d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    top: 50px;
+}
+
+
+
+
+.rzt {
+    position: relative;
+
+    width: 95%;
+    height: 200px;
+    margin: 0 auto;
+
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #0e0f11;
+}
+.rzt p {
+    position: relative;
+    text-align: center;
+
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+    top: 20px;
+}
+
+
+.rzt-b1 {
+    position: relative;
+    text-align: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    top: 10px;
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+
+    border-radius: 10px;
+
+    background-color: #9a99ff;
+}
+.rzt-b1 a {
+    position: relative;
+
+    color: #000000;
+
+    top: 5px;
+}
+.rzt-b2 {
+    position: relative;
+    text-align: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    top: 30px;
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+
+    border-radius: 10px;
+
+    background-color: #6b68ff;
+}
+.rzt-b2 a {
+    position: relative;
+
+    color: #000000;
+    
+    top: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .proj {
+        top: 220px;
+        width: 97%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+
+
+    .rzt p {
+        font-size: 20px;
+    }
+    .rzt-b1 {
+        top: 15px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .rzt-b2 {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+.backB {
+    position: fixed;
+    text-align: center;
+
+    top: 50%;
+    left: 700px;
+    width: 170px;
+    height: 30px;
+    margin: 0 auto;
+
+    border: solid #00000000 3px;
+    border-radius: 10px;
+
+    background-color: #090a0c;
+
+    transition: 0.2s ease-in-out;
+}
+.backB a {
+    position: relative;
+
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    top: 5px;
+}
+.backB:hover {
+    border-bottom-color: #ffffff;
+}
+
+
+
+
+
+@media screen and (max-width: 890px) {
+    .backB {
+        top: 0;
+        left: 5px;
+    }
+}
