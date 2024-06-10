@@ -4,9 +4,11 @@
     left: 0;
     top: 0;
     width: 650px;
-    height: 1900px;
+    height: 100%;
 
     box-shadow: 5px 5px 5px #000000;
+
+    overflow-y: scroll;
 }
 
 
